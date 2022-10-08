@@ -1,0 +1,14 @@
+#======================================================#
+#LabName: lab5 - lab3
+#Description: A function that will write a text file 
+#to your PC with your name 
+#AuthorName: Carmela Isabel Rambacud
+#AuthorStudent#: 144524204
+#OPS445 NBB - Ben Singh
+#======================================================#
+
+
+#!/usr/bin/env python3
+
+with open("myname.txt", "x") as f:
+    f.write("My name is Carmela!")
