@@ -12,3 +12,9 @@
 
 with open("myname.txt", "x") as f:
     f.write("My name is Carmela!")
+	
+def helloWorld():
+	print(‘Hello World’)
+
+
+helloWorld()
